@@ -16,7 +16,7 @@ build:
 integrations:
   hub:
     - integrationName: docker-hub
-      type: dockerRegistryLogin
+      type: docker
       branches:
         only:
           - master
